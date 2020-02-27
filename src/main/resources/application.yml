@@ -1,0 +1,38 @@
+#普通数据配置
+name: zhangsan
+
+#对象配置
+#server:
+#  port: 8082
+
+person:
+  addr: beijing
+  name: tom
+  age: 18
+
+#行内对象配置
+#person: {name: zhangsan,age: 18,addr: beijing }
+
+#配置数据、list、set集合(普通字符串)
+citiy1:
+ - beijing
+ - tianjin
+ - shanghai
+ 
+#行内配置数据、集合
+citiy2: [beijing,tianjin,shanghai]
+
+#配置数据、list、set集合(对象)
+person1:
+ - name: josn
+   age: 17
+ - name: tom
+   age: 18
+
+#行内配置数据、集合
+person2: [{name: tom,age: 18},{name: json,age: 17}]
+
+#map配置
+map:
+ key1: value1
+ key2: value2
